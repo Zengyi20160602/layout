@@ -9,6 +9,8 @@ body {
 	margin: 10px 10px 0px 10px;
 	text-align: left;
 	background-color: #20B2AA;
+	padding: 10px;
+
 }
 
 div#tablecontainer {
@@ -30,6 +32,7 @@ div#tablerow {
 	background-color: #00CED1;
 
 	width: 100%;
+	height: 300px;
 
 }
 
@@ -40,9 +43,11 @@ div#tablerow {
 	vertical-align: top;
 	background-color: #00CED1;
 
+
 }
 
 #footer {
+	padding: 10px;
 	text-align: center;
 	background-color: #20B2AA;
 	margin: 0px 10px 10px 10px;

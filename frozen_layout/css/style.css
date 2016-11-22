@@ -1,0 +1,56 @@
+body {
+	font-family: Verdana, Geneva, Arial, sans-serif;
+	font-size: small;
+	background-color: #708090;
+}
+
+#header {
+	height: 108px;
+	margin: 10px;
+	text-align: left;
+	background-color: #20B2AA;
+	padding: 10px;
+}
+
+
+
+#main {
+ 
+	font-size: 110%;
+	padding: 10px;
+	background-color: #00CED1;
+	float: left;
+	margin:0px 10px 10px 10px;
+	height: 300px;   /*不设置的话测试的时候看不太出来*/
+	width: 500px;
+
+}
+
+#sidebar {
+
+	font-size: 105%;
+	padding: 10px;
+	background-color: #00CED1;
+	height: 200px;   /*为了与main显示出差距，现实中采用float布局是无法做到
+					两栏等高*/
+	margin: 0px 10px 10px 540px;
+
+}
+
+#footer {
+	
+	padding: 10px;
+	text-align: center;
+	background-color: #20B2AA;
+	margin: 10px;
+	clear: left;
+}
+
+#allcontent {
+	width: 800px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: #778899;
+	margin: auto;
+
+}
