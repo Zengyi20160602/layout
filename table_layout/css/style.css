@@ -1,0 +1,49 @@
+body {
+	font-family: Verdana, Geneva, Arial, sans-serif;
+	font-size: small;
+	background-color: #708090;
+}
+
+#header {
+	height: 108px;
+	margin: 10px 10px 0px 10px;
+	text-align: left;
+	background-color: #20B2AA;
+}
+
+div#tablecontainer {
+	display: table;    /*表格布局：把页面内容看成表格展示，把需布局的整体放入div，并设置display:table*/
+	border-spacing: 10px;   /*表格单元格间空隙*/
+}
+
+div#tablerow {
+	display: table-row;   /*表格中的行放入一个div中嵌入到tablecontainer中，
+	                       此处只有一行，并设置行div的display:table-row*/
+}
+
+#main {
+	display: table-cell;   /*页面内容（看成对表格单元格的填充）放入自己的div中，
+	                        设置display:table-cell*/
+	font-size: 110%;
+	padding: 10px;
+	vertical-align: top;    /*设置内容相对于单元格上边对齐（而不是中间或下边）*/
+	background-color: #00CED1;
+
+	width: 100%;
+
+}
+
+#sidebar {
+	display: table-cell;
+	font-size: 105%;
+	padding: 10px;
+	vertical-align: top;
+	background-color: #00CED1;
+
+}
+
+#footer {
+	text-align: center;
+	background-color: #20B2AA;
+	margin: 0px 10px 10px 10px;
+}
