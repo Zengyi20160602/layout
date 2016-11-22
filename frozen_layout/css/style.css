@@ -46,11 +46,12 @@ body {
 	clear: left;
 }
 
-#allcontent {
+#allcontent {  /*对页面整体进行冻结，设置固定宽度，避免因为浏览器大小的改变而
+				引起页面布局的失控*/
 	width: 800px;
 	padding-top: 5px;
 	padding-bottom: 5px;
 	background-color: #778899;
-	margin: auto;
+	margin: auto;  /*设置冻结div的外边距auto，可达到自动等分外边距效果，即页面会居中*/
 
 }
