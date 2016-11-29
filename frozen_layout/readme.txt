@@ -1,2 +1,2 @@
-¶³½á£¨Äý½º£©²¼¾Ö¼æÈÝÐÔ£º
-IE7¼°ÒÔÉÏ google Firefox
+å‡èƒ¶å¸ƒå±€å…¼å®¹æ€§ï¼š
+IE7åŠä»¥ä¸Š google Firefox
